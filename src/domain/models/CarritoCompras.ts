@@ -2,7 +2,7 @@ import { ItemCarrito } from "../interfaces/ItemCarrito.interface";
 import { Producto } from "../interfaces/Producto.interface";
 import { Descuento } from "../types/Descuento.type";
 
-class CarritoCompras {
+export class CarritoCompras {
 
     private items: Map<number, ItemCarrito> = new Map();
 
